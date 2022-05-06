@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.welcome{
+    
+    height: 100vh;
+    background: linear-gradient(rgba(5, 7, 12, 0.40), rgba(5, 7, 12, 0.40)) , url(../imgs/desarrollo-web.png) no-repeat;
+    background-size: cover;
+    background-position: center ;
+    
+    
+    padding: 7px;
+
+}
+@media (min-width : 650px){
+    .welcome{
+        height: 90vh;
+    }
+}
+
+.welcome__header-container{
+    height: 15%;
+    
+}
+
+.welcome__title-container{
+    height: 85%;
+    
+    padding: 187px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+    
+}
+
+.welcome__title-container__title{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 48px;
+    
+}
+
+@media(min-width: 650px){
+    .welcome__title-container__title{
+        font-size: 68px;
+    }
+}
+
+.welcome__title-container__subtitle{
+    margin: 0;
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////*/
+
+.presentation{
+    
+    background-color: black;
+    padding: 58px;
+}
+@media(min-width: 650px){
+    .presentation{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: max-content;
+        padding: 80px 10px 10px 
+    }
+}
+.presentation__container{
+
+    max-width: 650px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+    
+
+    justify-content: center;
+    
+
+    
+}
+
+.presentation__container__img{
+    display: none;
+    justify-self: flex-end;
+}
+
+@media(min-width:650px){
+    .presentation__container__img{
+        display: inherit;
+    }
+}
+
+
+
+
+.presentation__container__title{
+    
+   
+    margin: 0;
+    font-size: 32px;
+    
+    color: rgb(80, 68, 156);
+
+    text-align: center;
+
+    border-left: solid rgb(80, 69, 156) 2px;;
+    border-right: solid rgb(80, 69, 156) 2px;;
+}
+
+@media(min-width:650px){
+    .presentation__container__title{
+        text-align: left;
+        border: none;
+        font-size: 42px;
+    }
+}
+.presentation__container__parrafo{
+    font-size: 16px;
+   
+    text-align: center;
+    line-height : 30px;
+    margin: 46px 0 0 0;
+}
+
+@media(min-width:650px){
+    .presentation__container__parrafo{
+        text-align: left;
+        font-size: 20px;
+    }
+}
+
+
+/*///////////////////////////////////////////////////////////*/
+.services{
+    padding-bottom: 20px;
+    
+    
+    padding-top: 50px;
+}
+
+@media(min-width:700px){
+    .services{
+        padding: 100px 0
+    }
+}
+.services__title{
+text-align: center;
+font-size: 32px;
+font-family: 'Montserrat', sans-serif;
+margin: 0 0 50px 0;
+
+
+}
+
+@media(min-width:650px){
+    .services__title{
+        font-size: 42px;
+    }
+}
+.services__title::after{
+    content: "🛠";
+    color: rgb(80, 69, 156) ;
+    margin: 0 0 0 10px;
+}
+
+
+
+.services__container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    
+    
+}
+
+@media(min-width:700px){
+    .services__container{
+        flex-direction: row;
+    }
+}
+
+.services__container__service{
+    
+    max-width: 260px;
+    margin: 0 auto;
+    padding: 10px;
+    display: grid;
+    gap: 10px;
+    
+}
+
+.services__container__service__img{
+    
+    justify-self: center;
+    
+   
+    
+}
+
+.services__container__service__title{
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(80, 69, 156) ;
+    
+}
+
+@media(min-width:800px){
+    .services__container__service__title{
+        font-size: 30px;
+    }
+}
+
+.services__container__service__explication{
+    text-align: center;
+    margin: 0;
+    font-family: "Poppins";
+    font-weight: 400;
+    
+}
+@media(min-width:800px){
+    .services__container__service__explication{
+        font-size: 20px;
+    }
+}
+
+
+
+/*///////////////////////////////////////////////////////////*/
+
+.contact-section{
+    background-color: black;
+    padding: 65px 20px 70px 20px;
+    color: white;
+}
+
+
+
+
+
+
+

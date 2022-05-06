@@ -1,0 +1,85 @@
+.contact{
+    display: grid;
+    gap: 35px;
+    
+    max-width: 335px;
+    margin: 0 auto;
+   
+    border: solid rebeccapurple;
+
+    padding: 10px;
+}
+
+@media(min-width:650px){
+    .contact{
+        grid-template-columns: 1fr 1fr;
+        border: none;
+        max-width: none;
+        gap: 70px;
+    }
+}
+
+.contact__title{
+    margin: 0;
+    text-align: center  ;
+    font-size: 32px;
+   font-family: 'Montserrat', sans-serif;
+   color: white;
+   
+}
+
+@media(min-width:650px){
+    .contact__title{
+        justify-self: flex-end;
+        font-size: 38px;
+    }
+}
+
+.contact__form{
+    display: grid;
+    gap: 25px;
+    max-width: 335px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+  
+    
+}
+.contact__form__field{
+    display: grid;
+    gap: 5px;
+}
+.contact__form__field__input{
+    
+    height: 45px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    
+}
+
+.contact__form__field textarea{
+    height: 113px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.contact__form__button{
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #2C2C2C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact__form__button:hover{
+    border: solid 1px;
+}

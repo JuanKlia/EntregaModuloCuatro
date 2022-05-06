@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi pagina</title>
+
+    <link rel="stylesheet" href="./components/header.css" />
+    <script defer src="./components/header.js"></script>
+
+    <link rel="stylesheet" href="./components/footer.css" />
+    <script defer src="./components/footer.js"></script>
+
+    <link rel="stylesheet" href="./components/contactForm.css" />
+    <script defer src="./components/contactForm.js"></script>
+
+    <link rel="stylesheet" href="./pages/index.css" />
+    <script defer src="./pages/index.js"></script>
+  </head>
+  <body>
+    <section class="welcome">
+      <div class="welcome__header-container"></div>
+      <div class="welcome__title-container">
+        <h1 class="welcome__title-container__title">Hola</h1>
+        <h2 class="welcome__title-container__subtitle">Soy Juan</h2>
+      </div>
+    </section>
+    <section class="presentation">
+      <img
+        src="./imgs/ImagenPrincipal.png"
+        alt=""
+        class="presentation__container__img"
+      />
+      <div class="presentation__container">
+        <h3 class="presentation__container__title">Soy Juan</h3>
+        <p class="presentation__container__parrafo">
+          Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+          vehicula velit. Aenean lobortis posuere tristique. Phasellus placerat
+          arcu elementum nisi ultrices cursus. Etiam sit amet aliquet lacus.
+          Integer ut iaculis augue, sit amet tincidunt ex. In eleifend justo et
+          sodales semper. Mauris nec tortor lectus. Curabitur nec ultricies
+          dolor.
+        </p>
+      </div>
+    </section>
+    <section class="services">
+      <h3 class="services__title">Mis servicios</h3>
+
+      <div class="services__container">
+        <template id="services__card">
+          <div class="services__container__service">
+            <img src="" alt="" class="services__container__service__img" />
+            <h5 class="services__container__service__title">Hago Cosas</h5>
+            <p class="services__container__service__explication">
+              Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+              vehicula velit. Aenean lobortis posuere tristique.
+            </p>
+          </div>
+        </template>
+      </div>
+    </section>
+    <section class="contact-section">
+      <div class="contact__container"></div>
+    </section>
+    <div class="footer__container"></div>
+  </body>
+</html>

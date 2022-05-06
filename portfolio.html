@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <script src="./components/footer.js"></script>
+    <link rel="stylesheet" href="./components/footer.css" />
+
+    <script defer src="./components/header.js"></script>
+    <link rel="stylesheet" href="./components/header.css" />
+
+    <link rel="stylesheet" href="./pages/portfolio.css" />
+    <script defer src="./pages/portfolio.js"></script>
+  </head>
+  <body>
+    <section class="header__section">
+      <div class="header__container"></div>
+      <h2 class="header__title">Portfolio</h2>
+    </section>
+
+    <section class="portfolio__section">
+      <div class="portfolio__container">
+        <template id="work__card">
+          <div class="portfolio__container__work">
+            <img
+              src="./Diseño sin título (4).png"
+              alt=""
+              class="portfolio__container__work__img"
+            />
+            <h5 class="portfolio__container__work__title">Hago Cosas</h5>
+            <p class="portfolio__container__work__explication">
+              Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+              vehicula velit. Aenean lobortis posuere tristique.
+            </p>
+            <a
+              href=""
+              style="text-decoration: none"
+              class="portfolio__container__work__link"
+              >Click Aqui</a
+            >
+          </div>
+        </template>
+      </div>
+    </section>
+
+    <section class="footer__section">
+      <div class="footer__container"></div>
+    </section>
+  </body>
+</html>
